@@ -5,8 +5,6 @@ The system delegates heavy visual processing to a PC (Host) while maintaining pr
 
 ## 🧠 System Architecture
 
-The project is split into two main components:
-
 1. **Host PC (Python + OpenCV):** - Captures video feed and detects faces using the Haar Cascade algorithm.
    - Optimizes performance by processing frames in Grayscale.
    - Calculates the spatial deviation (offset) from the center.
